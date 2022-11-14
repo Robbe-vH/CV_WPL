@@ -1,0 +1,299 @@
+/* Adobe kleuren
+Donkerblauw:
+#040DBF
+
+blauw:
+#0711D9
+
+lichtblauw:
+#5259D9
+
+lichtpaars:
+#A7ABF2
+
+wit:
+#F0F1F2 
+
+grijs:
+#4d4d4d*/
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    color: #F0F1F2;
+    background-color: #F0F1F2;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    margin: 5vw 5vh;
+    box-shadow: 0px 0px 6px #2b2b2b;
+}
+
+/* zijbalk */
+.zijbalk {
+    display: block;
+    background: #5259D9;
+    position: relative;
+    left: 0vw;
+    width: 25%;
+    min-height: 800px;
+}
+
+.zijbalk .hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #F0F1F2;
+    margin: 10px 15px;
+    padding: 0;
+}
+
+.zijbalk h1 {
+    color: #F0F1F2;
+}
+
+.zijbalk h3 {
+    color: #4d4d4d;
+}
+
+.zijbalk a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.zijbalk ul {
+    list-style-type: none;
+}
+
+/* Fotoblokje */
+.fotoblok {
+    background-color: #A7ABF2;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotoblok h1 {
+    text-shadow: none;
+    color: #2b2b2b;
+}
+
+.profielfoto {
+    border-radius: 50%;
+    height: 80%;
+    width: 80%;
+    transition: all 0.3s;
+}
+
+
+/* opleidingblok */
+.opleidingblok {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.opl {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.opl>h3 {
+    color: #F0F1F2;
+}
+
+.opl h4,
+h5 {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 10px 0;
+    color: #c3c5e7;
+}
+
+/* Interesseblokje */
+.interesseblok {
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.int {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+/* skillblokje */
+.skillblok {
+    margin-right: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skill {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* contactblokje  */
+.contactblok {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contactblok ul {
+    font-family: 'Oswald', sans-serif;
+    justify-self: flex-start;
+    font-size: 36px;
+    margin: 0;
+    padding: 30px 30px;
+}
+
+.contactblok li {
+    margin: 10px;
+    display: inline;
+}
+
+/* Resume begint vanaf hier */
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    color: #2b2b2b;
+    width: 75%;
+    background-color: #F0F1F2;
+    padding: 5%;
+}
+
+.resume p {
+    line-height: 1.5;
+    color: #2b2b2b;
+}
+
+.blauwebalk {
+    background-color: #5259D9;
+    padding: 5px 10px;
+    color: #F0F1F2;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.resume h1 {
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.resume .hr {
+    border-top: 2px solid #2b2b2b;
+    margin-left: 0;
+}
+
+.beschrijving,
+.werkervaring {
+    margin: 5% 0;
+}
+
+.werkervaring h1 {
+    text-align: end;
+}
+
+.MottigeTabel {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    border: 3px solid #5259D9;
+    margin: 30px 0px;
+    transition: all 0.3s;
+}
+
+table:hover {
+    box-shadow: 0px 0px 6px #2b2b2b;
+}
+
+thead>tr {
+    background-color: #5259D9;
+    color: #F0F1F2;
+    text-align: left;
+}
+
+thead th {
+    padding: 15px 10px;
+}
+
+tbody td {
+    padding: 20px 10px;
+}
+
+tbody>tr:nth-of-type(even) {
+    background-color: #A7ABF2;
+}
+
+tbody tr:hover {
+    color: #5259D9;
+}
+
+.werkuitleg p {
+    padding: 30px;
+    font-weight: bold;
+    min-height: 100px;
+}
+
+
+#thaicafe {
+    display: block;
+}
+
+#bpost,
+#pauwels,
+#speelplein,
+#karting {
+    display: none;
+}
+
+
+
+.hardsk {
+    display: flex;
+    flex-direction: column;
+}
+
+.skillbalk {
+    height: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #4d4d4d;
+}
+
+.skillload {
+    display: flex;
+    text-align: center;
+    color: #F0F1F2;
+    height: 20px;
+    width: 0%;
+    border-radius: 10px;
+    background-color: #5259D9;
+    align-items: center;
+    justify-content: center;
+}

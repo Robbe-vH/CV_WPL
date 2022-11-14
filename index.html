@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto&family=Ubuntu:wght@500&display=swap"
+        rel="stylesheet">
+    <!-- Font awesome icoontjes -->
+    <script src="https://kit.fontawesome.com/d0a57e56c0.js" crossorigin="anonymous"></script>
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="./cv.css">
+
+    <title>CV - Robbe van Hoppe</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Gekleurde zijblak -->
+        <div class="zijbalk">
+            <div class="fotoblok">
+                <img class="profielfoto" src="https://picsum.photos/300" alt="Profielfoto" />
+                <h1>Robbe van Hoppe</h1>
+                <h3>Student Programmer</h3>
+            </div>
+
+            <div class="opleidingblok">
+                <h1>Schooling</h1>
+
+                <div class="opl">
+                    <h3>Associates degree Programming</h3>
+                    <h4>PXL University</h4>
+                    <h5>2022 - now</h5>
+                </div>
+
+                <div class="opl">
+                    <h3>Bachelor degree ICT</h3>
+                    <h4>Thomas More</h4>
+                    <h5>2018 - 2020</h5>
+                </div>
+
+
+            </div>
+
+            <div class="hr"></div>
+
+            <div class="skillblok">
+                <h1>Soft Skills</h1>
+
+                <div class="skill">
+                    <h4>Talking to Customers</h4>
+                    <h4>Planning Projects</h4>
+                    <h4>Leadership</h4>
+                    <h4>Stress Resilient</h4>
+                </div>
+            </div>
+
+            <div class="hr"></div>
+
+            <div class="interesseblok">
+                <h1>Interests</h1>
+
+                <div class="int">
+                    <h4>Rock Climbing</h4>
+                    <h4>Plant Care</h4>
+                </div>
+                <div class="int">
+                    <h4>Home Lab</h4>
+                    <h4>Web Design</h4>
+                </div>
+                <div class="int">
+                    <h4>Jazz</h4>
+                    <h4>Coffee</h4>
+                </div>
+            </div>
+
+            <div class="hr"></div>
+
+
+            <div class="contactblok">
+                <h1>Contact Me</h1>
+                <ul class="contactlijst">
+                    <li class="email"><a href="mailto: robbevanhoppe@outlook.com"><em class="fa fa-envelope"></em></a>
+                    </li>
+                    <li class="phone"><a href="tel:0032456182501"><em class="fa fa-phone"></em></a>
+                    </li>
+                    <li class="website"><a href="https://www.robbevanhoppe.be/"><em class="fa fa-globe"></em></a>
+                    </li>
+                    <li class="linkedin"><a href="https://www.linkedin.com/in/robbe-van-hoppe-18b685244/"><em
+                                class="fa fa-linkedin" style="font-size:24px"></em></a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+        <div class="resume">
+            <div class="beschrijving">
+                <div class="blauwebalk">
+                    <h1>Who am I?</h1>
+                </div>
+
+                <div class="hr"></div>
+                <p>
+                    I would like to describe myself as a person who is always eager to learn and develop his skills.
+                    During my free time, I spend a lot of time on Pluralsight learning new skills to add to my set.
+                    As a
+                    kid, I used to love experimenting with electronics, disassembeling old amplifiers, RC cars and
+                    planes and making them into new Frankenstein devices. When I got my first job, most of my money
+                    was
+                    spend on hardware for building a PC and that's where my IT journey started. I got hands on
+                    experience with making a hackingtosh, swapping every component, installing Linux, crashing the
+                    system a couple of times and fixing it. At the time it felt like having a new world opening, the
+                    possibilities where endless. Now those years pay off in terms of the experience on system
+                    administration. There is still much to learn in the system domain, but of course my main
+                    interest is
+                    programming.
+                    I started my journey in 5th grade back in high school, the usual introduction to web
+                    development,
+                    Java, OOP in Visual Basic, etc. After completing two years of high school, I dropped out for a
+                    non
+                    IT-related job which I thought would be giving me enough sattisfaction, but after a couple of
+                    years,
+                    I noticed I missed programming too much and I enrolled in a undergraduate degree in Programming
+                    at
+                    PXL.
+                </p>
+            </div>
+
+
+            <div class="werkervaring">
+                <div class="blauwebalk">
+                    <h1>Job Experiences</h1>
+                </div>
+
+                <div class="hr"></div>
+                <!-- Tabellen zijn niet mijn favoriete oplossing, maar oke -->
+                <div class="MottigeTabel">
+                    <table>
+                        <thead>
+                            <!-- header row -->
+                            <tr>
+                                <th>Company</th>
+                                <th>Years active</th>
+                                <th>Job Title</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr onmouseenter="RijTc()">
+                                <td>Thai Cafe</td>
+                                <td>2020 - Now</td>
+                                <td>Driver & Bartender</td>
+                            </tr>
+                            <tr onmouseenter="RijBpost()">
+                                <td>Bpost</td>
+                                <td>2021 - 2021</td>
+                                <td>Student mailman</td>
+                            </tr>
+                            <tr onmouseenter="RijPauwels()">
+                                <td>Profile Pauwels</td>
+                                <td>2013 - 2020</td>
+                                <td>Bike mechanic</td>
+                            </tr>
+                            <tr onmouseenter="RijSpeel()">
+                                <td>Speelplein De Boomhut</td>
+                                <td>2021 - 2021</td>
+                                <td>Volunteer caretaker for children with disabilities</td>
+                            </tr>
+                            <tr onmouseenter="RijKarting()">
+                                <td>Karting Lommel</td>
+                                <td>2017 - 2018</td>
+                                <td>Kart mechanic</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+
+                </div>
+
+                <div class="werkuitleg">
+                    <p id="thaicafe">At Thai Cafe, I started out driving around delivering TakeAway orders. After a
+                        couple of months though my employer asked me if I would be interested in helping behind the
+                        bar
+                        and serving plates to the tables. I very much enjoy helping where I can and having contact
+                        with
+                        the customers.</p>
+
+                    <p id="bpost">I applied for a single-month student job in the summer, but due to a shortage of
+                        mailmen,
+                        my employer asked me if I could stay for four months. It was a pretty intense work schedule
+                        with
+                        a lot of pressure and not a lot of guidance. It took me a couple of weeks to get used to the
+                        job
+                        and find the right ways of getting all letters and packages delivered within my paid time,
+                        but
+                        once I got the hang of it, the job turned out to be pretty fun in its own way.</p>
+
+                    <p id="pauwels">For my years at Pauwels, I am grateful for all the learning experiences my
+                        employer
+                        and colleagues gave me. Not only did I learn to work the mechanics of bikes, but first and
+                        foremost I
+                        got hands-on experience talking to customers and honing my social skills. Due to my moving
+                        to
+                        Hasselt, I had to give up this student job, but it will always be an important part of my
+                        early
+                        work experience.</p>
+
+                    <p id="speelplein">This was one of the more random jobs I got into. A friend of mine asked me if
+                        I
+                        would be interested in helping him out with a summer camp for children with disabilities. At
+                        first
+                        I didn't feel comfortable with the idea because I felt like I could do more harm than good,
+                        but
+                        he assured me I would be okay. After getting to know the children and their little quirks, I
+                        had
+                        an awesome time caring for and playing with them.</p>
+
+                    <p id="karting">Coming from my interest in mechanics, I got a position as a kart mechanic at my
+                        local
+                        karting circuit during summer vacation. Even though it was pretty fun working there, I chose
+                        my job at the bicycle shop when school started again.</p>
+                </div>
+
+            </div>
+
+            <div class="hardskills">
+                <div class="blauwebalk">
+                    <h1>Hard Skills</h1>
+                </div>
+
+                <div class="hr"></div>
+
+                <!-- Balkjes, ja dit design komt van W3 schools, maar de javascript is wel zelf geschreven -->
+                <div class="hardsk">
+                    <h3>Web Development</h3>
+                    <div class="skillbalk" onmouseenter="move1()">
+                        <div id="skillbar1" class="skillload"></div>
+                    </div>
+
+                    <p>
+                        My journey in web design started back in high school, where I was introduced to the basics
+                        of
+                        HTML, CSS/SASS, Javascript and PHP. In university, I came into contact with version control
+                        through Git and learned how to use frameworks like Bootstrap effectively. At PXL, I used
+                        Pluralsight courses to learn the basics of angular, which I really started to love after
+                        getting
+                        used to Typescript.
+                    </p>
+                </div>
+
+                <div class="hardsk">
+                    <h3>C#</h3>
+                    <div class="skillbalk" onmouseenter="move2()">
+                        <div id="skillbar2" class="skillload"></div>
+                    </div>
+
+                    <p>
+                        C# is one of the more technical languages I learn at PXL, but the Object Oriented
+                        Programming
+                        ideas relate a lot to Jasvascript. Making this is my second most favorite course.
+                    </p>
+                </div>
+
+                <div class="hardsk">
+                    <h3>Data & SQL</h3>
+                    <div class="skillbalk" onmouseenter="move3()">
+                        <div id="skillbar3" class="skillload"></div>
+                    </div>
+
+                    <p>
+                        I am not great with SQL and database structures, but it is a vital part of making basically
+                        any
+                        sort of website that has to store data. Though I don't really like working with the
+                        language, I
+                        am able to do basicv selections, subquerries and functions.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <script>
+            //hard skill balkjes, waarschijnlijk kon dit in 1 functie, maar geen idee hoe ik dat mooi doe zonder angular
+            function move1() {
+                var elem = document.getElementById("skillbar1");
+                var width = elem.style.width;
+                var id = setInterval(frame, 10);
+                function frame() {
+                    if (width < 60) {
+                        width++;
+                        elem.style.width = width + '%';
+                        elem.innerHTML = width + " %";
+                    }
+                }
+            }
+
+            function move2() {
+                var elem = document.getElementById("skillbar2");
+                var width = elem.style.width;
+                var id = setInterval(frame, 10);
+                function frame() {
+                    if (width < 25) {
+                        width++;
+                        elem.style.width = width + '%';
+                        elem.innerHTML = width + " %";
+                    }
+                }
+            }
+
+            function move3() {
+                var elem = document.getElementById("skillbar3");
+                var width = elem.style.width;
+                var id = setInterval(frame, 10);
+                function frame() {
+                    if (width < 20) {
+                        width++;
+                        elem.style.width = width + '%';
+                        elem.innerHTML = width + " %";
+                    }
+                }
+            }
+
+            // werkervaringen
+            function RijTc() {
+                let thaicafe = document.getElementById("thaicafe")
+                let bpost = document.getElementById("bpost");
+                let pauwels = document.getElementById("pauwels");
+                let speelplein = document.getElementById("speelplein");
+                let karting = document.getElementById("karting");
+
+                if (thaicafe.style.display == "none") {
+                    thaicafe.style.display = "block";
+                    bpost.style.display = "none";
+                    pauwels.style.display = "none";
+                    speelplein.style.display = "none";
+                    karting.style.display = "none";
+                } else {
+                    thaicafe.style.display = "none";
+                }
+            }
+
+            function RijBpost() {
+
+                let thaicafe = document.getElementById("thaicafe")
+                let bpost = document.getElementById("bpost");
+                let pauwels = document.getElementById("pauwels");
+                let speelplein = document.getElementById("speelplein");
+                let karting = document.getElementById("karting");
+
+                if (bpost.style.display == "none") {
+                    thaicafe.style.display = "none";
+                    bpost.style.display = "block";
+                    pauwels.style.display = "none";
+                    speelplein.style.display = "none";
+                    karting.style.display = "none";
+                } else {
+                    bpost.style.display = "none";
+                }
+            }
+
+            function RijPauwels() {
+                let thaicafe = document.getElementById("thaicafe")
+                let bpost = document.getElementById("bpost");
+                let pauwels = document.getElementById("pauwels");
+                let speelplein = document.getElementById("speelplein");
+                let karting = document.getElementById("karting");
+
+                if (pauwels.style.display == "none") {
+                    thaicafe.style.display = "none";
+                    bpost.style.display = "none";
+                    pauwels.style.display = "block";
+                    speelplein.style.display = "none";
+                    karting.style.display = "none";
+                } else {
+                    pauwels.style.display = "none";
+                }
+            }
+
+            function RijSpeel() {
+                let thaicafe = document.getElementById("thaicafe")
+                let bpost = document.getElementById("bpost");
+                let pauwels = document.getElementById("pauwels");
+                let speelplein = document.getElementById("speelplein");
+                let karting = document.getElementById("karting");
+
+                if (speelplein.style.display == "none") {
+                    thaicafe.style.display = "none";
+                    bpost.style.display = "none";
+                    pauwels.style.display = "none";
+                    speelplein.style.display = "block";
+                    karting.style.display = "none";
+                } else {
+                    speelplein.style.display = "none";
+                }
+            }
+
+            function RijKarting() {
+                let thaicafe = document.getElementById("thaicafe")
+                let bpost = document.getElementById("bpost");
+                let pauwels = document.getElementById("pauwels");
+                let speelplein = document.getElementById("speelplein");
+                let karting = document.getElementById("karting");
+
+                if (karting.style.display == "none") {
+                    thaicafe.style.display = "none";
+                    bpost.style.display = "none";
+                    pauwels.style.display = "none";
+                    speelplein.style.display = "none";
+                    karting.style.display = "block";
+                } else {
+                    karting.style.display = "none";
+                }
+            }
+
+            // navbar
+            function dropdown() {
+                var x = document.getElementById("items");
+                var b = document.getElementById("burger");
+
+                if (x.style.height === "120px") {
+                    console.log("Close");
+
+                    x.style.height = "0px";
+                    b.style.background = "#4d4d4d";
+                } else {
+                    console.log("Open");
+
+                    x.style.height = "120px";
+                    b.style.background = "#5259D9";
+                }
+            }
+
+
+
+
+        </script>
+</body>
+
+</html>
