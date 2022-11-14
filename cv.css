@@ -1,20 +1,22 @@
+/* uniforme kleuren door het hele document */
 /* Adobe kleuren
-Donkerblauw:
-#040DBF
-
-blauw:
-#0711D9
 
 lichtblauw:
 #5259D9
 
 lichtpaars:
+#c3c5e7
+
+paars:
 #A7ABF2
 
 wit:
 #F0F1F2 
 
 grijs:
+#2b2b2b
+
+Donkergrijs:
 #4d4d4d*/
 body {
     margin: 0;
@@ -58,7 +60,7 @@ body {
 }
 
 .zijbalk a {
-    color: #fff;
+    color: #F0F1F2;
     text-decoration: none;
 }
 
@@ -80,6 +82,7 @@ body {
     color: #2b2b2b;
 }
 
+/*proefielfoto hover effect en klik*/
 .profielfoto {
     border-radius: 50%;
     height: 80%;
