@@ -232,7 +232,7 @@ body {
     text-align: end;
 }
 
-.MottigeTabel {
+.mottigetabel {
     display: flex;
     justify-content: center;
 }
@@ -271,10 +271,14 @@ tbody tr:hover {
     color: #5259D9;
 }
 
-.werkuitleg p {
+.werkuitleg-desktop p {
     padding: 30px;
     font-weight: bold;
     min-height: 100px;
+}
+
+.werkuitleg-mobile {
+  display: none;
 }
 
 
@@ -370,6 +374,36 @@ footer h2 {
     .mobielnav {
         display: block;
     }
+
+    .mottigetabel, .werkuitleg {
+      display: none;
+    }
+
+    #thaicafe {
+      display: none;
+    }
+
+    .werkuitleg-mobile {
+      display: block;
+      margin: 20px;
+    }
+
+    .kaartje {
+      display: none;
+      margin: 10px;
+      background-color: #c3c5e7;
+      border: 2px solid #5259D9;
+      border-radius: 20px;
+    }
+
+    .kaarthoofding {
+      margin: 0;
+      padding: 10px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      background-color: #5259D9;
+    }
+
 }
 
 /* opmaak voor schermen groter dan 1080p */
