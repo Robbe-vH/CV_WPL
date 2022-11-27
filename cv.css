@@ -391,9 +391,16 @@ footer h2 {
     .kaartje {
       display: none;
       margin: 10px;
+      margin-bottom: 0px;
+    }
+    .kaartTekst {
+      padding: 5px;
       background-color: #c3c5e7;
       border: 2px solid #5259D9;
+      margin: 0px;
       border-radius: 20px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
     }
 
     .kaarthoofding {
@@ -402,6 +409,7 @@ footer h2 {
       border-top-left-radius: 20px;
       border-top-right-radius: 20px;
       background-color: #5259D9;
+      color: #F0F1F2;
     }
 
 }
