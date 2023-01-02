@@ -25,7 +25,7 @@
         <!-- Gekleurde zijblak -->
         <div class="zijbalk">
             <div class="fotoblok"><a href="https://www.linkedin.com/in/robbe-van-hoppe-18b685244/">
-                    <img class="profielfoto" src="https://picsum.photos/300" /></a>
+                    <img class="profielfoto" src="./assets/profielfoto2.jpg" /></a>
                 <h1>Robbe van Hoppe</h1>
                 <h3>Student Programmer</h3>
             </div>
@@ -108,8 +108,8 @@
                 </div>
 
                 <div class="hr"></div>
-                <p>
-                    I would like to describe myself as a person who is always eager to learn and develop his skills.
+                <p class="description">
+                    I would like to describe myself as a person who is eager to learn and develop his skills.
                     During my free time, I spend a lot of time on Pluralsight learning new skills to add to my set.
                     As a
                     kid, I used to love experimenting with electronics, disassembeling old amplifiers, RC cars and
@@ -128,7 +128,7 @@
                     non
                     IT-related job which I thought would be giving me enough sattisfaction, but after a couple of
                     years,
-                    I noticed I missed programming too much and I enrolled in a undergraduate degree in Programming
+                    I felt like I missed programming too much and I enrolled in a undergraduate degree in Programming
                     at
                     PXL.
                 </p>
@@ -302,8 +302,7 @@
 
                     <p>
                         My journey in web design started back in high school, where I was introduced to the basics
-                        of
-                        HTML, CSS/SASS, Javascript and PHP. In university, I came into contact with version control
+                        of HTML, CSS/SASS, Javascript and PHP. In university, I came into contact with version control
                         through Git and learned how to use frameworks like Bootstrap effectively. At PXL, I used
                         Pluralsight courses to learn the basics of angular, which I really started to love after
                         getting
@@ -318,7 +317,7 @@
                     </div>
 
                     <p>
-                        C# is one of the more technical languages I learn at PXL, but the Object Oriented
+                        C# is one of the more fun languages I learn at PXL, but the Object Oriented
                         Programming
                         ideas relate a lot to Jasvascript. Making this is my second most favorite course.
                     </p>
@@ -336,6 +335,19 @@
                         sort of website that has to store data. Though I don't really like working with the
                         language, I
                         am able to do basic selections, subquerries and functions.
+                    </p>
+                </div>
+
+                <div class="hardsk">
+                    <h3>Linux Arch & Ubuntu</h3>
+                    <div class="skillbalk" onmouseenter="move4()">
+                        <div id="skillbar4" class="skillload"></div>
+                    </div>
+
+                    <p>
+                        I have been running a Debain/Proxmox based server for some time at home. As my main driver on my laptop 
+                        I use Arch Manjaro. My experience with Linux runs back to high school when I first installed Ubuntu.
+                        The possibilities have always interested me a lot. 
                     </p>
                 </div>
             </div>
@@ -382,6 +394,19 @@
             var id = setInterval(frame, 10);
             function frame() {
                 if (width < 20) {
+                    width++;
+                    elem.style.width = width + '%';
+                    elem.innerHTML = width + " %";
+                }
+            }
+        }
+
+        function move4() {
+            var elem = document.getElementById("skillbar4");
+            var width = elem.style.width;
+            var id = setInterval(frame, 10);
+            function frame() {
+                if (width < 70) {
                     width++;
                     elem.style.width = width + '%';
                     elem.innerHTML = width + " %";

@@ -5,17 +5,17 @@
     "version": "0.2.0",
     "configurations": [
     {
-        "name": "Launch Chrome",
-        "request": "launch",
+        "name": "Attach Chrome",
+        "request": "attach",
         "type": "chrome",
         "url": "http://localhost:8080",
         "webRoot": "${workspaceFolder}"
     },
         {
             "type": "chrome",
-            "request": "launch",
+            "request": "attach",
             "name": "Open index.html",
-            "file": "C:\Users\robbe\OneDrive\PXL Graduaat Programmeren\New folder\CV_WPL\index.html"
+            "file": "/home/robbevh/Documents/CV_WPL/index.html"
         }
     ]
 }
