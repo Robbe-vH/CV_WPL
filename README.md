@@ -1,3 +1,3 @@
 # CV_WPL
 
-Repo van de **Web toepassing CV**
+Repo van de **Web toepassing CV**.
