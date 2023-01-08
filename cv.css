@@ -229,7 +229,7 @@ body {
 }
 
 .beschrijving{
-  margin: 5% 0 0 0 ;
+  margin: 5% 0 0 0;
 }
 .werkervaring {
     margin: 5% 0;
@@ -279,10 +279,10 @@ tbody tr:hover {
 }
 
 .werkuitleg-desktop p {
-    padding: 0 30px 10px 30px ;
+    padding: 0 30px 10px 30px;
     font-weight: bold;
     min-height: 100px;
-    text-align: ;
+    text-align: justify;
 }
 
 .werkuitleg-mobile {
@@ -376,6 +376,9 @@ footer h2 {
     .mobielnav {
         display: block;
     }
+    .beschrijving, .werkervaring, .hardskills {
+      padding: 20px;
+    }
 
     .mottigetabel, .werkuitleg {
       display: none;
@@ -413,6 +416,8 @@ footer h2 {
       background-color: #5259D9;
       color: #F0F1F2;
     }
+
+
 
 }
 
